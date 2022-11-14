@@ -118,6 +118,13 @@ public class StudyGuide {
 //            }
 //        }
     }
+
+    static void saveGuide(String fileName){
+
+    }
+    static void loadGuide(String fileName){
+
+    }
 //
 //    The StudyGuide class will be a manager of the Topic data it should contain a
 //        list of all topics and define CRUD methods for someone to create, read,

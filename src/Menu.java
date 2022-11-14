@@ -8,7 +8,7 @@ static void Runtime(){
 
 
     while(again){
-        System.out.println("Commands - C R U D Q");
+        System.out.println("Commands - C R U D S L Q");
         System.out.println("Enter a command: ");
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
@@ -31,6 +31,14 @@ static void Runtime(){
             case "D":
                 myGuide.readTopics();
                 myGuide.deleteTopic();
+                break;
+            case "S":
+                //@TODO: call serialization method
+                //saveGuide(nameoffile);
+                break;
+            case "L":
+                //@TODO: call deserialization method
+                //loadGuide(nameoffile);
                 break;
             case "Q":
                 System.out.println("Goodbye!");
